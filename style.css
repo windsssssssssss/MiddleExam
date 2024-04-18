@@ -1,0 +1,344 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+h1,
+h2 {
+    font-family: 'caveat', cursive;
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 80px;
+}
+
+h2 {
+    font-size: 40px;
+    margin-top: 0;
+}
+
+h3 {
+    margin: 0;
+}
+
+nav {
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    top: 0;
+}
+
+nav a {
+    display: inline-block;
+    margin: 5px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 11px;
+    text-transform: uppercase;
+    color: black;
+}
+
+@media (min-width: 440px) {
+    nav a {
+        margin: 14px;
+        font-size: 16px;
+    }
+}
+
+header {
+    position: relative;
+    padding-top: 50px;
+    text-align: center;
+    background-color: #2B2D42;
+    color: #8D99AE;
+}
+
+header h1,
+header h2 {
+    color: #EDF2F4;
+}
+
+h1 {
+    margin: 0;
+}
+
+.contentwrap {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 60px 50px;
+    max-width: 950px;
+    overflow: hidden;
+}
+
+@media (min-width: 935px) {
+    .contentwrap {
+        flex-direction: row;
+    }
+}
+
+.profiteimg {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+@media (min-width: 440px) {
+    .profiteimg {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media (min-width: 935px) {
+    .profiteimg {
+        width: 250px;
+        height: 250px;
+    }
+}
+
+.workexperience {
+    padding-top: 40px;
+    background-color: #EDF2F4;
+}
+
+.workwrapper {
+    margin: 0 auto;
+    padding: 0 30px;
+    max-width: 950px;
+}
+
+.jobwrapper {
+    display: block;
+    padding-bottom: 30px;
+}
+
+@media (min-width: 935px) {
+    .jobwrapper {
+        display: grid;
+        grid-template-columns: 1fr 2.5fr;
+        column-gap: 30px;
+    }
+}
+
+h3~p {
+    margin: 0;
+}
+
+@media (min-width: 935px) {
+    .jobdescripton p:first-of-type {
+        margin-top: 0;
+    }
+}
+
+.education {
+    padding: 40px 0;
+    background: linear-gradient(rgba(141, 153, 174, 0.9), rgba(141, 153, 174, 0.7)), url(./img/school.jpg) no-repeat fixed;
+    background-size: cover;
+}
+
+.educationwrapper {
+    margin: 0 auto;
+    padding: 0 30px;
+    max-width: 950px;
+}
+
+.ul {
+    margin-top: 0;
+}
+
+footer {
+    text-align: center;
+    background-color: #8D99AE;
+    color: #EDF2F4;
+}
+
+.contactwrapper {
+    margin: 0 auto;
+    padding: 50px 0;
+    max-width: 900px;
+}
+
+.button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.media-pic {
+    width: 100px;
+    height: 100px;
+}
+
+.mains {
+    margin: 0 auto;
+    padding: 50px 0;
+    max-width: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    background-color: white;
+}
+
+.uls {
+    width: 500px;
+}
+
+.java {
+    list-style: none;
+    color: black;
+    font-size: 16px;
+    margin: 20px 0;
+    position: relative;
+}
+
+.java::after {
+    content: "";
+    display: block;
+    height: 10px;
+    width: 90%;
+    background-color: #1f4a59;
+    position: absolute;
+    bottom: -18px;
+    border-radius: 4px;
+}
+
+.java::after {
+    background-image: linear-gradient(90deg, #0fbcf9, #34e7e4);
+}
+
+.python {
+    list-style: none;
+    color: black;
+    font-size: 16px;
+    margin: 20px 0;
+    position: relative;
+}
+
+.python::after {
+    content: "";
+    display: block;
+    height: 10px;
+    width: 80%;
+    background-color: #1f4a59;
+    position: absolute;
+    bottom: -18px;
+    border-radius: 4px;
+}
+
+.python::after {
+    background-image: linear-gradient(90deg, #0fbcf9, #34e7e4);
+}
+
+.html {
+    list-style: none;
+    color: black;
+    font-size: 16px;
+    margin: 20px 0;
+    position: relative;
+}
+
+.html::after {
+    content: "";
+    display: block;
+    height: 10px;
+    width: 70%;
+    background-color: #1f4a59;
+    position: absolute;
+    bottom: -18px;
+    border-radius: 4px;
+}
+
+.html::after {
+    background-image: linear-gradient(90deg, #0fbcf9, #34e7e4);
+}
+
+.css {
+    list-style: none;
+    color: black;
+    font-size: 16px;
+    margin: 20px 0;
+    position: relative;
+}
+
+.css::after {
+    content: "";
+    display: block;
+    height: 10px;
+    width: 60%;
+    background-color: #1f4a59;
+    position: absolute;
+    bottom: -18px;
+    border-radius: 4px;
+}
+
+.css::after {
+    background-image: linear-gradient(90deg, #0fbcf9, #34e7e4);
+}
+
+.skillswrapper {
+    margin: 0 auto;
+    padding: 50px 0;
+    max-width: 900px;
+}
+
+
+@keyframes javaAnimation {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 90%;
+    }
+}
+
+@keyframes pythonAnimation {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 80%;
+    }
+}
+
+@keyframes htmlAnimation {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 70%;
+    }
+}
+
+@keyframes cssAnimation {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 60%;
+    }
+}
+
+.java::after {
+    animation: javaAnimation 1.2s ease-in-out forwards;
+}
+
+.python::after {
+    animation: pythonAnimation 1.2s ease-in-out forwards;
+}
+
+.html::after {
+    animation: htmlAnimation 1.2s ease-in-out forwards;
+}
+
+.css::after {
+    animation: cssAnimation 1.2s ease-in-out forwards;
+}
